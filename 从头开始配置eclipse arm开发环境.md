@@ -18,10 +18,16 @@
 
 > 先安装的插件安装后不要点`Restart`重启，装完最后一个再重启
 
-1. 菜单`Help > Eclipse Marketplace`打开插件市场
+1. 菜单`Help > Eclipse Marketplace...`打开插件市场
 1. `Eclipse Marketplace`上部`Find`输入`mcu`，回车执行搜索，窗口中部列表找到`GNU MCU Eclipse`，点`Install`
 1. `Find`输入`bracketeer`，回车执行搜索，窗口中部列表找到`Bracketeer for C/C++ (CDT)`，点`Install`
 1. `Find`输入`devstyle`，回车执行搜索，窗口中部列表找到`Derkest Dark Theme with DevStyle`，点`Install`
+
+1. 菜单`Help > Install New Software...`打开插件安装起
+1. `Install`窗口上部`Work with`右侧点`Add`，`Name`输入`sconsolidator`，`Location`输入`http://www.sconsolidator.com/update`，点`OK`
+1. （可选步骤）窗口下部取消勾选`Contract all update sites during install to find required software`
+1. 窗口中部点`Select All`，底部点`Next`安装
+1. `Install`窗口上部`Work with`下拉选择`CDT - http://download.eclipse.org/tools/cdt/releases/9.4`，`type filter text`处输入`launchbar`，勾选第一个结果`LaunchBar -> LaunchBar`，底部点`Next`安装
 
 ## toolchain
 
